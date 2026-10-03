@@ -1,0 +1,25 @@
+{
+  "name": "cash602-cmd/vps-backup-sync",
+  "description": "Zero-dependency VPS backup, rsync migration, and crontab automation utility for cloud hosting servers.",
+  "type": "library",
+  "homepage": "https://vpsrankings.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bob Tong",
+      "homepage": "https://vpsrankings.com/author"
+    }
+  ],
+  "bin": [
+    "backup-sync.sh"
+  ],
+  "keywords": [
+    "vps",
+    "backup",
+    "migration",
+    "rsync",
+    "cloud-hosting",
+    "sysadmin",
+    "benchmarks"
+  ]
+}
