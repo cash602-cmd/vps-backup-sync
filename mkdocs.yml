@@ -1,0 +1,23 @@
+site_name: VPS Backup Sync Documentation
+site_description: 自动化 VPS 数据备份、异地容灾与定时同步工具使用指南
+site_author: cash602-cmd
+site_url: https://cash602-cmdvps-backup-sync.readthedocs.io/
+
+nav:
+  - 概述与简介: index.md
+  - 快速安装使用: quickstart.md
+  - 异地备份与存储 VPS 推荐: storage-vps.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - bash
+    - yaml
+    - json
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
