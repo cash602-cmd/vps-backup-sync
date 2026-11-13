@@ -68,7 +68,7 @@ Enter choice [0-4]:
 
 ### Scenario A: Moving to a New VPS (Site Migration)
 
-When migrating from an old host to a faster VPS (e.g., from an entry-level instance to a high-speed [CN2 GIA or AMD EPYC VPS](https://vpsrankings.com/rankings)):
+When migrating from an old host to a faster VPS (e.g., from an entry-level instance to a high-speed [CN2 GIA Optimized VPS](https://vpsrankings.com/en/articles/c5cjkbgg-dmit-vps-evaluation-high-performance-optimized-lin)):
 
 1. Run `./backup-sync.sh` on your **Source Server**.
 2. Select option **`2` (Live Server-to-Server Migration)**.
@@ -91,12 +91,12 @@ When migrating from an old host to a faster VPS (e.g., from an entry-level insta
 
 Need a secondary, low-cost server for off-site backups? We benchmark dozens of budget and storage VPS providers based on real-world disk I/O, price, and bandwidth:
 
-| Provider | Starting Price | Best For | Benchmark Review |
+| Provider | Starting Price | Best For | Dedicated Review & Benchmark |
 |:---|:---|:---|:---|
-| **RackNerd** | ~$1.49 / mo | Budget secondary backup storage | [View Benchmarks](https://vpsrankings.com/rankings) |
-| **Hetzner Cloud** | ~€3.49 / mo | Enterprise NVMe speed & snapshots | [View Benchmarks](https://vpsrankings.com/rankings) |
-| **Hostinger** | ~$4.99 / mo | Easy snapshots & automated backups | [View Benchmarks](https://vpsrankings.com/rankings) |
-| **Contabo** | ~$5.50 / mo | Huge storage-per-dollar ratio | [View Benchmarks](https://vpsrankings.com/rankings) |
+| **RackNerd** | ~$1.49 / mo | Budget secondary backup storage | [RackNerd VPS Review: Budget Value Pick](https://vpsrankings.com/en/articles/11edv4zd-racknerd-vps-review) |
+| **Hetzner Cloud** | ~€3.49 / mo | Enterprise NVMe speed & snapshots | [Hetzner VPS Review: European Cloud Benchmark](https://vpsrankings.com/en/articles/or4r5go7-hetzner-vps-review-real-experience-of-cost-effective) |
+| **Hostinger** | ~$4.99 / mo | Easy snapshots & automated backups | [Hostinger VPS Review: Beginner-Friendly Cloud](https://vpsrankings.com/en/articles/je6pucra-2026-hostinger-vps-review-beginner-friendly-great-value-but) |
+| **Contabo** | ~$5.50 / mo | Huge storage-per-dollar ratio | [Contabo VPS Review: High-Storage Instance Analysis](https://vpsrankings.com/en/articles/iqrwcfsk-contabo-vps-review-2026) |
 
 *Compare full benchmark scores and discount coupons at [VPS Rankings Deals](https://vpsrankings.com/deals).*
 
@@ -115,4 +115,4 @@ Need a secondary, low-cost server for off-site backups? We benchmark dozens of b
 
 Released under the [MIT License](LICENSE). Free for personal and commercial usage.
 
-**Maintained with ❤️ by [Bob Tong](https://vpsrankings.com/author) & [VPS Rankings](https://vpsrankings.com)**
+**Maintained with ❤️ by [Bob Tong](https://vpsrankings.com/author) & [VPS Rankings](https://vpsrankings.com/)**
